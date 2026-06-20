@@ -7,6 +7,7 @@ import {
 import { COLORS } from '../constants/theme';
 import { Storage, USER_KEYS } from '../utils/storage';
 import AIBrain from '../engine/AIBrain';
+import { VoiceEngine } from '../engine/VoiceEngine';
 import { ActionEngine } from '../engine/ActionEngine';
 import { detectAPIProvider } from '../utils/apiDetector';
 
